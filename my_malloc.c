@@ -23,7 +23,7 @@ typedef struct ptr_header{
 }ptr_header;
 
 const int page_size = 4096;
-const int num_of_pages = (8 * 1024 * 1024) / 4096;
+const int num_of_pages = (8 * 1024 * 1024) / 4096; //2048 pages
 
 
 
